@@ -5,22 +5,22 @@ import org.junit.jupiter.api.Test;
 
 public class powertest {
     @Test
-    public void one_raised_to_one_is_onew() {
-        assert powerfinder.OF(1,1) == 1;
+    public void one_raised_to_one_is_one() {
+        assert powerFinder.powerOf(1,1) == 1;
     }
 
     @Test
-    public void twoRaised_to_one_is_2() {
-        assert powerfinder.OF(2,1) == 2;
+    public void two_raised_to_one_is_two() {
+        assert powerFinder.powerOf(2,1) == 2;
     }
 
     @Test
-    public void two_power_2_is_4() {
-        assert powerfinder.OF(2, 2) == 4;
+    public void two_power_two_is_four() {
+        assert powerFinder.powerOf(2, 2) == 4;
     }
 
     @Test
-    public void power_of_2_and_3_Is_SIX() {
-        assert powerfinder.OF(3, 2) == 3*3;
+    public void three_power_two_is_nine() {
+        assert powerFinder.powerOf(3, 2) == 3*3;
     }
 }
